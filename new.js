@@ -109,4 +109,5 @@ promise
     })
 
     // 8. Async/await
-    // 깃 푸시가 안된다.
+    // await이 then역할
+   
