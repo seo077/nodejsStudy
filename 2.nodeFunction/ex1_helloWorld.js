@@ -1,0 +1,12 @@
+function helloWorld(){
+    console.log("Hello World");
+    helloNode();
+}
+
+function helloNode(){
+    console.log("Hello node");
+}
+helloWorld();
+
+// REPL
+// 백틱 + ctrl -> cmd창
