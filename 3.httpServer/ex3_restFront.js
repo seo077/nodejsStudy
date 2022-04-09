@@ -7,6 +7,7 @@ async function getUser(){ //로딩 시 사용자의 정보를 가져오는 함�
 
         // 사용자마다 반복적으로 화면 표시 및 이벤트 연결
         Object.keys(users).map(function (key){
+            console.log("key",key);
             const userDiv = document.createElement('div');
             const span = document.createElement('span');
             span.textContent = users[key];
